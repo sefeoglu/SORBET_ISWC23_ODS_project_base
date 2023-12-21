@@ -1,0 +1,1843 @@
+{
+    "conference : edas": {
+        "false_negatives": {
+            "conference participant#attended": {
+                "conference participant#conference chair": 0.8118857145309448,
+                "conference participant#person": 0.7567105293273926,
+                "conference participant#conference event": 0.7546409368515015,
+                "conference participant#conference": 0.7464087009429932,
+                "conference participant#presenter": 0.740049421787262,
+                "conference participant#author": 0.719689667224884,
+                "conference participant#session chair": 0.6967144012451172,
+                "conference participant#conference session": 0.6865304708480835,
+                "conference participant#workshop": 0.6850528717041016,
+                "conference participant#talk event": 0.6830822229385376
+            },
+            "organization#organization": {
+                "organization#organization": 0.8233029842376709,
+                "organization#government organization": 0.7547706365585327,
+                "organization#academia organization": 0.7238262295722961,
+                "organization#industry organization": 0.7070335745811462,
+                "organization#organizational meeting": 0.6920853853225708,
+                "organization#ngo": 0.6680793166160583,
+                "organization#conference event": 0.5666948556900024,
+                "organization#academic event": 0.5493231415748596,
+                "organization#conference chair": 0.5355475544929504,
+                "organization#workshop": 0.5278737545013428
+            },
+            "conference part#conference event": {
+                "conference part#conference event": 0.7347447276115417,
+                "conference part#conference": 0.7332118153572083,
+                "conference part#workshop": 0.7257916331291199,
+                "conference part#two level conference": 0.6834253668785095,
+                "conference part#single level conference": 0.6824365854263306,
+                "conference part#paper presentation": 0.6711848974227905,
+                "conference part#conference chair": 0.6525359153747559,
+                "conference part#conference session": 0.6466789245605469,
+                "conference part#conference venue place": 0.6341580748558044,
+                "conference part#talk event": 0.6196691989898682
+            },
+            "conference document#document": {
+                "conference document#document": 0.7952943444252014,
+                "conference document#conference": 0.7256943583488464,
+                "conference document#paper": 0.6844750642776489,
+                "conference document#paper presentation": 0.6842938661575317,
+                "conference document#conference event": 0.6567285060882568,
+                "conference document#published paper": 0.64568030834198,
+                "conference document#conference session": 0.6290873885154724,
+                "conference document#accepted paper": 0.6170289516448975,
+                "conference document#conference chair": 0.6065993309020996,
+                "conference document#workshop": 0.6053118705749512
+            },
+            "paper#paper": {
+                "paper#published paper": 0.7509048581123352,
+                "paper#paper": 0.7145832180976868,
+                "paper#paper presentation": 0.7136543989181519,
+                "paper#accepted paper": 0.6855651140213013,
+                "paper#rejected paper": 0.6523697972297668,
+                "paper#active paper": 0.6508545875549316,
+                "paper#document": 0.6470662355422974,
+                "paper#pending paper": 0.6442550420761108,
+                "paper#call for manuscripts": 0.6062561273574829,
+                "paper#withdrawn paper": 0.603926956653595
+            },
+            "conference volume#conference": {
+                "conference volume#conference": 0.8194522261619568,
+                "conference volume#two level conference": 0.7381387948989868,
+                "conference volume#single level conference": 0.7291697263717651,
+                "conference volume#conference session": 0.716689944267273,
+                "conference volume#conference event": 0.6981179714202881,
+                "conference volume#conference chair": 0.6705002188682556,
+                "conference volume#conference venue place": 0.6377854347229004,
+                "conference volume#workshop": 0.6349044442176819,
+                "conference volume#paper presentation": 0.5964856743812561,
+                "conference volume#talk event": 0.5864823460578918
+            },
+            "rejected contribution#rejected paper": {
+                "rejected contribution#rejected paper": 0.7048572897911072,
+                "rejected contribution#reject rating": 0.6458368897438049,
+                "rejected contribution#accepted paper": 0.5906359553337097,
+                "rejected contribution#accept rating": 0.5718845129013062,
+                "rejected contribution#reviewer": 0.5396418571472168,
+                "rejected contribution#review form": 0.5285873413085938,
+                "rejected contribution#review rating": 0.5285720229148865,
+                "rejected contribution#withdrawn paper": 0.5194422602653503,
+                "rejected contribution#review": 0.5115846395492554,
+                "rejected contribution#week reject rating": 0.5105534195899963
+            },
+            "topic#topic": {
+                "topic#topic": 0.8193685412406921,
+                "topic#multimedia topic": 0.7549898624420166,
+                "topic#communications topic": 0.7472460269927979,
+                "topic#cad topic": 0.7292327880859375,
+                "topic#communication theory topic": 0.6745319962501526,
+                "topic#medicine topic": 0.6714957356452942,
+                "topic#performance topic": 0.638465166091919,
+                "topic#security topic": 0.6224659085273743,
+                "topic#computer networks applications topic": 0.6200647354125977,
+                "topic#antennas topic": 0.606225311756134
+            },
+            "accepted contribution#accepted paper": {
+                "accepted contribution#accepted paper": 0.7010419964790344,
+                "accepted contribution#accept rating": 0.6558927297592163,
+                "accepted contribution#reject rating": 0.566993772983551,
+                "accepted contribution#rejected paper": 0.5526075959205627,
+                "accepted contribution#reviewer": 0.5354177355766296,
+                "accepted contribution#review form": 0.5343878269195557,
+                "accepted contribution#review rating": 0.5329972505569458,
+                "accepted contribution#accept if room rating": 0.5291293859481812,
+                "accepted contribution#review": 0.5140580534934998,
+                "accepted contribution#published paper": 0.5087628960609436
+            },
+            "regular author#author": {
+                "regular author#author": 0.8329631090164185,
+                "regular author#person": 0.7603896260261536,
+                "regular author#reviewer": 0.6364075541496277,
+                "regular author#conference chair": 0.6338545680046082,
+                "regular author#presenter": 0.6216749548912048,
+                "regular author#session chair": 0.5451865792274475,
+                "regular author#tpc member": 0.5284265279769897,
+                "regular author#published paper": 0.49675267934799194,
+                "regular author#attended": 0.4767835736274719,
+                "regular author#academic event": 0.46128183603286743
+            }
+        },
+        "false_positives": {
+            "conference#conference": 0.9181827902793884
+        },
+        "true_positives": {
+            "person#person": 0.9647559523582458,
+            "reviewer#reviewer": 0.9203839898109436,
+            "review#review": 0.907923698425293,
+            "workshop#workshop": 0.8994346857070923
+        }
+    },
+    "cmt : sigkdd": {
+        "false_negatives": {
+            "conference chair#general chair": {
+                "conference chair#program committee member": 0.8093036413192749,
+                "conference chair#program chair": 0.7816036939620972,
+                "conference chair#organizing committee member": 0.778096616268158,
+                "conference chair#general chair": 0.7747317552566528,
+                "conference chair#conference hall": 0.7109856009483337,
+                "conference chair#person": 0.6792530417442322,
+                "conference chair#organizing committee": 0.6760982275009155,
+                "conference chair#invited speaker": 0.6604067087173462,
+                "conference chair#committee": 0.6594540476799011,
+                "conference chair#conference": 0.6508528590202332
+            }
+        },
+        "false_positives": {
+            "paper abstract#abstract": 0.8919962644577026
+        },
+        "true_positives": {
+            "conference#conference": 0.975633442401886,
+            "program committee member#program committee member": 0.9556964039802551,
+            "paper#paper": 0.941063404083252,
+            "document#document": 0.9254871606826782,
+            "person#person": 0.9184421896934509,
+            "author#author": 0.8930686116218567,
+            "program committee chair#program chair": 0.8772885799407959,
+            "review#review": 0.8765465617179871,
+            "program committee#program committee": 0.8729098439216614
+        }
+    },
+    "edas : ekaw": {
+        "false_negatives": {
+            "conference dinner#conference banquet": {
+                "conference dinner#conference banquet": 0.8093384504318237,
+                "conference dinner#conference": 0.7930259108543396,
+                "conference dinner#social event": 0.7152462005615234,
+                "conference dinner#conference trip": 0.663621187210083,
+                "conference dinner#conference participant": 0.636011004447937,
+                "conference dinner#conference session": 0.6358639001846313,
+                "conference dinner#event": 0.6166406273841858,
+                "conference dinner#conference paper": 0.6018123030662537,
+                "conference dinner#conference proceedings": 0.599637508392334,
+                "conference dinner#workshop": 0.5812135338783264
+            },
+            "academic event#scientific event": {
+                "academic event#scientific event": 0.7770534157752991,
+                "academic event#event": 0.7763861417770386,
+                "academic event#conference": 0.7743087410926819,
+                "academic event#social event": 0.7732996344566345,
+                "academic event#conference banquet": 0.7417321801185608,
+                "academic event#conference participant": 0.6793946027755737,
+                "academic event#individual presentation": 0.6626325249671936,
+                "academic event#conference paper": 0.6555549502372742,
+                "academic event#conference session": 0.6508002281188965,
+                "academic event#conference proceedings": 0.6469829082489014
+            },
+            "place#location": {
+                "place#social event": 0.5740092396736145,
+                "place#location": 0.5707618594169617,
+                "place#event": 0.5700515508651733,
+                "place#conference": 0.5489993691444397,
+                "place#session chair": 0.5219507217407227,
+                "place#conference participant": 0.5065295100212097,
+                "place#conference banquet": 0.49562013149261475,
+                "place#invited talk": 0.4925224184989929,
+                "place#individual presentation": 0.48688769340515137,
+                "place#session chair member": 0.4824751317501068
+            },
+            "academia organization#academic institution": {
+                "academia organization#organisation": 0.7302437424659729,
+                "academia organization#academic institution": 0.7013433575630188,
+                "academia organization#organising agency": 0.684860348701477,
+                "academia organization#university": 0.6222766637802124,
+                "academia organization#research institute": 0.6046098470687866,
+                "academia organization#agency staff member": 0.5738236308097839,
+                "academia organization#organizing committee chair": 0.5332866311073303,
+                "academia organization#organizing committee member": 0.5318881869316101,
+                "academia organization#conference paper": 0.507977306842804,
+                "academia organization#program committee chair": 0.5036827921867371
+            },
+            "organization#organisation": {
+                "organization#organisation": 0.8118770718574524,
+                "organization#organising agency": 0.746788501739502,
+                "organization#academic institution": 0.5910384058952332,
+                "organization#organizing committee member": 0.5730237364768982,
+                "organization#agency staff member": 0.5655437707901001,
+                "organization#organizing committee chair": 0.5540594458580017,
+                "organization#conference": 0.508133053779602,
+                "organization#research institute": 0.507005512714386,
+                "organization#program committee member": 0.5057889819145203,
+                "organization#conference paper": 0.5039092898368835
+            },
+            "author#paper author": {
+                "author#paper author": 0.8152925372123718,
+                "author#person": 0.7700116634368896,
+                "author#presenter": 0.7527293562889099,
+                "author#possible reviewer": 0.699990451335907,
+                "author#organizing committee member": 0.6996955275535583,
+                "author#agency staff member": 0.6978088021278381,
+                "author#workshop chair": 0.6968186497688293,
+                "author#session chair member": 0.6924055218696594,
+                "author#program committee member": 0.6918626427650452,
+                "author#organizing committee chair": 0.6803909540176392
+            },
+            "topic#research topic": {
+                "topic#research topic": 0.7046380639076233,
+                "topic#event": 0.573668897151947,
+                "topic#conference paper": 0.5641302466392517,
+                "topic#programme brochure": 0.5574806928634644,
+                "topic#conference session": 0.5527104139328003,
+                "topic#contributed talk": 0.550922691822052,
+                "topic#individual presentation": 0.5506650805473328,
+                "topic#conference proceedings": 0.5485127568244934,
+                "topic#invited talk": 0.5451505184173584,
+                "topic#proceedings": 0.5430634021759033
+            },
+            "conference event#event": {
+                "conference event#conference": 0.9135603904724121,
+                "conference event#conference banquet": 0.8732054233551025,
+                "conference event#event": 0.8696438670158386,
+                "conference event#social event": 0.8264297842979431,
+                "conference event#conference session": 0.7923738360404968,
+                "conference event#conference participant": 0.7746084928512573,
+                "conference event#scientific event": 0.747443437576294,
+                "conference event#workshop": 0.7458553910255432,
+                "conference event#conference proceedings": 0.7452772259712219,
+                "conference event#workshop session": 0.7139480113983154
+            },
+            "programme#programme brochure": {
+                "programme#programme brochure": 0.6468684077262878,
+                "programme#program committee member": 0.5928308963775635,
+                "programme#workshop paper": 0.5501530170440674,
+                "programme#program committee chair": 0.5421717762947083,
+                "programme#document": 0.5345779657363892,
+                "programme#workshop": 0.5317478775978088,
+                "programme#individual presentation": 0.5249884724617004,
+                "programme#workshop session": 0.5236006379127502,
+                "programme#conference session": 0.5153592228889465,
+                "programme#demo session": 0.5096532702445984
+            },
+            "review#review": {
+                "review#review": 0.8444033265113831,
+                "review#positive review": 0.7477896809577942,
+                "review#neutral review": 0.6803865432739258,
+                "review#negative review": 0.6736194491386414,
+                "review#demo paper": 0.6517055630683899,
+                "review#submitted paper": 0.6404483318328857,
+                "review#document": 0.6011368632316589,
+                "review#accepted paper": 0.595603346824646,
+                "review#workshop paper": 0.5918607115745544,
+                "review#rejected paper": 0.5895892977714539
+            },
+            "attended#conference participant": {
+                "attended#conference participant": 0.6802195906639099,
+                "attended#late registered participant": 0.6640982627868652,
+                "attended#session chair": 0.6545019149780273,
+                "attended#session chair member": 0.6466149091720581,
+                "attended#program committee chair": 0.6394562721252441,
+                "attended#workshop chair": 0.632499635219574,
+                "attended#early registered participant": 0.6286429166793823,
+                "attended#invited speaker": 0.624076783657074,
+                "attended#organizing committee chair": 0.6173220872879028,
+                "attended#organizing committee member": 0.6037633419036865
+            }
+        },
+        "false_positives": {
+            "presenter#presenter": 0.9171561002731323,
+            "conference event#conference": 0.9135603904724121,
+            "conference session#conference session": 0.8905885219573975,
+            "conference chair#organizing committee chair": 0.8622788786888123,
+            "paper presentation#workshop paper": 0.8517943024635315
+        },
+        "true_positives": {
+            "workshop#workshop": 0.9572446346282959,
+            "person#person": 0.9437707662582397,
+            "session chair#session chair": 0.9239128232002258,
+            "accepted paper#accepted paper": 0.903930127620697,
+            "rejected paper#rejected paper": 0.8975768089294434,
+            "document#document": 0.887520968914032,
+            "social event#social event": 0.8821277022361755,
+            "paper#paper": 0.8814449906349182
+        }
+    },
+    "edas : sigkdd": {
+        "false_negatives": {
+            "conference venue place#conference hall": {
+                "conference venue place#place": 0.8140942454338074,
+                "conference venue place#conference hall": 0.7916756868362427,
+                "conference venue place#conference": 0.7000352144241333,
+                "conference venue place#main office": 0.6615570783615112,
+                "conference venue place#organizing committee": 0.5963255763053894,
+                "conference venue place#invited speaker": 0.5950462222099304,
+                "conference venue place#exhibitors": 0.5617924928665161,
+                "conference venue place#hotel": 0.5545538067817688,
+                "conference venue place#program committee member": 0.5390554666519165,
+                "conference venue place#organizing committee member": 0.5362882614135742
+            },
+            "accommodation place#hotel": {
+                "accommodation place#place": 0.862761914730072,
+                "accommodation place#hotel": 0.7019070982933044,
+                "accommodation place#conference hall": 0.6589917540550232,
+                "accommodation place#main office": 0.584505558013916,
+                "accommodation place#invited speaker": 0.5109692811965942,
+                "accommodation place#conference": 0.4661860764026642,
+                "accommodation place#exhibitors": 0.4543657898902893,
+                "accommodation place#organizing committee": 0.449908584356308,
+                "accommodation place#program chair": 0.43255412578582764,
+                "accommodation place#organization": 0.4127087891101837
+            },
+            "conference chair#general chair": {
+                "conference chair#organizing committee member": 0.7852922081947327,
+                "conference chair#program chair": 0.7799889445304871,
+                "conference chair#general chair": 0.7725844383239746,
+                "conference chair#program committee member": 0.7722358107566833,
+                "conference chair#conference": 0.7399422526359558,
+                "conference chair#conference hall": 0.7398730516433716,
+                "conference chair#invited speaker": 0.6869617104530334,
+                "conference chair#person": 0.6628890037536621,
+                "conference chair#organizing committee": 0.6577069759368896,
+                "conference chair#speaker": 0.6206276416778564
+            },
+            "attended#listener": {
+                "attended#program committee member": 0.6432040929794312,
+                "attended#organizing committee member": 0.6012238264083862,
+                "attended#conference hall": 0.5999419689178467,
+                "attended#invited speaker": 0.5984818339347839,
+                "attended#program chair": 0.5923198461532593,
+                "attended#general chair": 0.5828962326049805,
+                "attended#conference": 0.5485345125198364,
+                "attended#exhibitors": 0.5401288866996765,
+                "attended#organizing committee": 0.5237740874290466,
+                "attended#person": 0.5142744779586792
+            }
+        },
+        "false_positives": {},
+        "true_positives": {
+            "place#place": 0.9386241436004639,
+            "conference#conference": 0.9315004944801331,
+            "person#person": 0.9246855974197388,
+            "author#author": 0.9099549055099487,
+            "document#document": 0.8824816346168518,
+            "review#review": 0.8802670240402222,
+            "paper#paper": 0.8800560235977173
+        }
+    },
+    "ekaw : sigkdd": {
+        "false_negatives": {
+            "review#review": {
+                "review#review": 0.824388861656189,
+                "review#paper": 0.6996641755104065,
+                "review#document": 0.625718891620636,
+                "review#deadline paper submission": 0.5424591898918152,
+                "review#committee": 0.5312207937240601,
+                "review#best paper awards committee": 0.5102754235267639,
+                "review#organizing committee": 0.5034269690513611,
+                "review#abstract": 0.5017192363739014,
+                "review#program committee": 0.4975636899471283,
+                "review#deadline abstract submission": 0.45803558826446533
+            },
+            "organizing committee member#organizing committee member": {
+                "organizing committee member#organizing committee member": 0.9007343649864197,
+                "organizing committee member#program committee member": 0.8680093288421631,
+                "organizing committee member#program chair": 0.765606701374054,
+                "organizing committee member#organizing committee": 0.7619902491569519,
+                "organizing committee member#organization": 0.7427902221679688,
+                "organizing committee member#general chair": 0.742139995098114,
+                "organizing committee member#committee": 0.7080774307250977,
+                "organizing committee member#person": 0.6995592713356018,
+                "organizing committee member#conference hall": 0.6453362107276917,
+                "organizing committee member#program committee": 0.6356682181358337
+            },
+            "program committee chair#program chair": {
+                "program committee chair#program committee member": 0.9249244332313538,
+                "program committee chair#program chair": 0.8651686906814575,
+                "program committee chair#organizing committee member": 0.7942644357681274,
+                "program committee chair#general chair": 0.7685233950614929,
+                "program committee chair#program committee": 0.7394313216209412,
+                "program committee chair#committee": 0.7345744371414185,
+                "program committee chair#organizing committee": 0.7085846066474915,
+                "program committee chair#organization": 0.6571778059005737,
+                "program committee chair#person": 0.6394253969192505,
+                "program committee chair#conference hall": 0.6303752660751343
+            },
+            "paper author#author": {
+                "paper author#author of paper": 0.9117467403411865,
+                "paper author#author of paper student": 0.8928320407867432,
+                "paper author#author": 0.8503611087799072,
+                "paper author#paper": 0.7101127505302429,
+                "paper author#person": 0.710088849067688,
+                "paper author#best student paper supporter": 0.6972989439964294,
+                "paper author#speaker": 0.6801545023918152,
+                "paper author#best student paper award": 0.6418441534042358,
+                "paper author#best research paper award": 0.6257208585739136,
+                "paper author#program chair": 0.6169596910476685
+            },
+            "location#place": {
+                "location#place": 0.6029717922210693,
+                "location#main office": 0.42486098408699036,
+                "location#hotel": 0.3923777937889099,
+                "location#conference hall": 0.29455798864364624,
+                "location#organizing committee": 0.25348007678985596,
+                "location#listener": 0.22317978739738464,
+                "location#program committee": 0.21163327991962433,
+                "location#program chair": 0.20377716422080994,
+                "location#program committee member": 0.20313693583011627,
+                "location#person": 0.19939953088760376
+            }
+        },
+        "false_positives": {
+            "program committee chair#program committee member": 0.9249244332313538,
+            "organizing committee chair#organizing committee member": 0.920903205871582,
+            "paper author#author of paper": 0.9117467403411865,
+            "program committee member#program chair": 0.8547773361206055
+        },
+        "true_positives": {
+            "person#person": 0.9558482766151428,
+            "abstract#abstract": 0.9530860781669617,
+            "invited speaker#invited speaker": 0.9356291890144348,
+            "document#document": 0.9321480989456177,
+            "conference#conference": 0.8954638838768005,
+            "paper#paper": 0.8731966018676758
+        }
+    },
+    "cmt : edas": {
+        "false_negatives": {},
+        "false_positives": {},
+        "true_positives": {
+            "person#person": 0.9591578245162964,
+            "conference#conference": 0.9379689693450928,
+            "author#author": 0.903462290763855,
+            "document#document": 0.9021260738372803,
+            "conference chair#conference chair": 0.896511435508728,
+            "paper#paper": 0.8798439502716064,
+            "review#review": 0.8784029483795166,
+            "reviewer#reviewer": 0.8669865131378174
+        }
+    },
+    "conference : sigkdd": {
+        "false_negatives": {
+            "regular author#author": {
+                "regular author#author": 0.8390399217605591,
+                "regular author#person": 0.7812129259109497,
+                "regular author#author of paper student": 0.7631980180740356,
+                "regular author#author of paper": 0.7544422149658203,
+                "regular author#speaker": 0.6665934324264526,
+                "regular author#program chair": 0.659557044506073,
+                "regular author#organizing committee member": 0.656205952167511,
+                "regular author#program committee member": 0.6558606624603271,
+                "regular author#general chair": 0.6102979183197021,
+                "regular author#invited speaker": 0.580657958984375
+            },
+            "conference volume#conference": {
+                "conference volume#conference": 0.8262999653816223,
+                "conference volume#conference hall": 0.7318304181098938,
+                "conference volume#organizing committee": 0.6071140766143799,
+                "conference volume#committee": 0.5940431356430054,
+                "conference volume#program committee": 0.5535416007041931,
+                "conference volume#organizing committee member": 0.5371268391609192,
+                "conference volume#main office": 0.5236953496932983,
+                "conference volume#best paper awards committee": 0.5226777195930481,
+                "conference volume#program committee member": 0.5203124284744263,
+                "conference volume#invited speaker": 0.5055819749832153
+            },
+            "conference fees#fee": {
+                "conference fees#fee": 0.6522762179374695,
+                "conference fees#sponsor fee": 0.6471766233444214,
+                "conference fees#conference": 0.6293359398841858,
+                "conference fees#registration fee": 0.6236104965209961,
+                "conference fees#conference hall": 0.5207737684249878,
+                "conference fees#registration signed member": 0.4236887991428375,
+                "conference fees#registration non member": 0.41579174995422363,
+                "conference fees#exhibitors": 0.3931262791156769,
+                "conference fees#registration student": 0.3839465081691742,
+                "conference fees#platinum supporter": 0.3803832232952118
+            },
+            "paper#paper": {
+                "paper#paper": 0.7920824885368347,
+                "paper#document": 0.7470225691795349,
+                "paper#deadline paper submission": 0.7261537313461304,
+                "paper#abstract": 0.7137713432312012,
+                "paper#review": 0.6738903522491455,
+                "paper#author of paper": 0.6179530024528503,
+                "paper#deadline abstract submission": 0.6103458404541016,
+                "paper#best paper awards committee": 0.582910418510437,
+                "paper#best research paper award": 0.5819623470306396,
+                "paper#best student paper supporter": 0.558426022529602
+            },
+            "conference document#document": {
+                "conference document#document": 0.8098302483558655,
+                "conference document#paper": 0.7320289015769958,
+                "conference document#conference": 0.6756761074066162,
+                "conference document#conference hall": 0.6262712478637695,
+                "conference document#committee": 0.6181979775428772,
+                "conference document#review": 0.6092563271522522,
+                "conference document#deadline paper submission": 0.6067589521408081,
+                "conference document#organizing committee": 0.6001342535018921,
+                "conference document#abstract": 0.5874373316764832,
+                "conference document#program committee": 0.5862026810646057
+            }
+        },
+        "false_positives": {
+            "conference#conference": 0.9306394457817078,
+            "committee member#organizing committee member": 0.8820932507514954
+        },
+        "true_positives": {
+            "person#person": 0.9316816926002502,
+            "organizing committee#organizing committee": 0.9226295948028564,
+            "abstract#abstract": 0.895731508731842,
+            "review#review": 0.8873893618583679,
+            "committee#committee": 0.8865044713020325,
+            "program committee#program committee": 0.877091109752655,
+            "invited speaker#invited speaker": 0.8607540130615234
+        }
+    },
+    "confOf : edas": {
+        "false_negatives": {
+            "trip#excursion": {
+                "trip#excursion": 0.6888797283172607,
+                "trip#travel grant": 0.583185613155365,
+                "trip#social event": 0.4043681025505066,
+                "trip#non academic event": 0.3870823085308075,
+                "trip#sponsorship": 0.3541702926158905,
+                "trip#reception": 0.3464706838130951,
+                "trip#talk event": 0.3434527814388275,
+                "trip#organizational meeting": 0.3397800028324127,
+                "trip#conference venue place": 0.33512774109840393,
+                "trip#conference event": 0.3327432870864868
+            },
+            "working event#academic event": {
+                "working event#conference event": 0.7966583967208862,
+                "working event#talk event": 0.7684506177902222,
+                "working event#academic event": 0.7163647413253784,
+                "working event#break event": 0.705639660358429,
+                "working event#social event": 0.685335636138916,
+                "working event#workshop": 0.6775748133659363,
+                "working event#non academic event": 0.6617706418037415,
+                "working event#conference venue place": 0.6541972160339355,
+                "working event#paper presentation": 0.6458572149276733,
+                "working event#organizational meeting": 0.6394256949424744
+            },
+            "event#conference event": {
+                "event#conference event": 0.8230212330818176,
+                "event#talk event": 0.7817327976226807,
+                "event#academic event": 0.7247627973556519,
+                "event#social event": 0.6933799386024475,
+                "event#conference venue place": 0.6811697483062744,
+                "event#break event": 0.680279552936554,
+                "event#workshop": 0.6608650088310242,
+                "event#non academic event": 0.6520199775695801,
+                "event#conference": 0.6504442095756531,
+                "event#organizational meeting": 0.6216603517532349
+            },
+            "topic#topic": {
+                "topic#topic": 0.8193685412406921,
+                "topic#multimedia topic": 0.7549898624420166,
+                "topic#communications topic": 0.7472460269927979,
+                "topic#cad topic": 0.7292327880859375,
+                "topic#communication theory topic": 0.6745319962501526,
+                "topic#medicine topic": 0.6714957356452942,
+                "topic#performance topic": 0.638465166091919,
+                "topic#security topic": 0.6224659085273743,
+                "topic#computer networks applications topic": 0.6200647354125977,
+                "topic#antennas topic": 0.606225311756134
+            },
+            "participant#attended": {
+                "participant#person": 0.754804790019989,
+                "participant#session chair": 0.7105436325073242,
+                "participant#author": 0.6925469040870667,
+                "participant#presenter": 0.6820064187049866,
+                "participant#conference chair": 0.6657288670539856,
+                "participant#attended": 0.6619188189506531,
+                "participant#academic event": 0.5762955546379089,
+                "participant#reviewer": 0.5746625065803528,
+                "participant#conference event": 0.5744277238845825,
+                "participant#tpc member": 0.5654425621032715
+            },
+            "member program committee#tpc member": {
+                "member program committee#conference chair": 0.7285606861114502,
+                "member program committee#session chair": 0.7027111053466797,
+                "member program committee#person": 0.6785990595817566,
+                "member program committee#attended": 0.6355650424957275,
+                "member program committee#tpc member": 0.6300126910209656,
+                "member program committee#workshop": 0.5995377898216248,
+                "member program committee#conference event": 0.5833765864372253,
+                "member program committee#author": 0.581084132194519,
+                "member program committee#government organization": 0.5760539770126343,
+                "member program committee#programme": 0.5736525654792786
+            },
+            "paper#paper": {
+                "paper#published paper": 0.8183922171592712,
+                "paper#paper": 0.8031739592552185,
+                "paper#paper presentation": 0.736474871635437,
+                "paper#accepted paper": 0.7189710736274719,
+                "paper#active paper": 0.7057015299797058,
+                "paper#document": 0.6797694563865662,
+                "paper#rejected paper": 0.6752310991287231,
+                "paper#pending paper": 0.6696214079856873,
+                "paper#call for manuscripts": 0.6595124006271362,
+                "paper#call for papers": 0.64310222864151
+            }
+        },
+        "false_positives": {
+            "conference#conference": 0.8780254125595093
+        },
+        "true_positives": {
+            "country#country": 0.9999999403953552,
+            "workshop#workshop": 0.9529138803482056,
+            "reception#reception": 0.9421130418777466,
+            "author#author": 0.934150218963623,
+            "organization#organization": 0.9167582392692566,
+            "person#person": 0.9021710157394409,
+            "social event#social event": 0.8786377906799316
+        }
+    },
+    "confOf : iasted": {
+        "false_negatives": {
+            "event#activity": {
+                "event#conference activity": 0.7328963279724121,
+                "event#activity after conference": 0.6935039758682251,
+                "event#activity": 0.6885330080986023,
+                "event#activity before conference": 0.6649888157844543,
+                "event#conference state": 0.6429646015167236,
+                "event#conference building": 0.6247414350509644,
+                "event#conference hall": 0.6164393424987793,
+                "event#conference city": 0.6153578162193298,
+                "event#presenter state": 0.6017850041389465,
+                "event#social program": 0.5960075259208679
+            },
+            "person#person": {
+                "person#person": 0.8451405167579651,
+                "person#author": 0.6727457046508789,
+                "person#speaker": 0.6314341425895691,
+                "person#worker lecturer": 0.622075080871582,
+                "person#worker non speaker": 0.6157985329627991,
+                "person#session chair": 0.6074932813644409,
+                "person#reviewer": 0.5957867503166199,
+                "person#non speaker": 0.5867432951927185,
+                "person#delegate": 0.5830119252204895,
+                "person#student lecturer": 0.5775009989738464
+            },
+            "administrative event#activity before conference": {
+                "administrative event#conference activity": 0.7053218483924866,
+                "administrative event#activity after conference": 0.6989258527755737,
+                "administrative event#activity before conference": 0.6872537732124329,
+                "administrative event#activity": 0.672939121723175,
+                "administrative event#conference state": 0.6522916555404663,
+                "administrative event#conference hall": 0.6270725131034851,
+                "administrative event#presenter state": 0.626315712928772,
+                "administrative event#delegate": 0.618678867816925,
+                "administrative event#conference building": 0.6076772809028625,
+                "administrative event#conference city": 0.6026796698570251
+            },
+            "reception#cocktail reception": {
+                "reception#cocktail reception": 0.7222586274147034,
+                "reception#dinner banquet": 0.6961399912834167,
+                "reception#activity": 0.5935210585594177,
+                "reception#conference activity": 0.5910183191299438,
+                "reception#social program": 0.5803826451301575,
+                "reception#listener": 0.5761249661445618,
+                "reception#conference restaurant": 0.5658702254295349,
+                "reception#receiving manuscript": 0.5564966797828674,
+                "reception#conference hotel": 0.5524126291275024,
+                "reception#conference building": 0.5449654459953308
+            },
+            "city#city": {
+                "city#city": 0.7945390939712524,
+                "city#trip city": 0.6779502630233765,
+                "city#conference city": 0.5914433002471924,
+                "city#presenter city": 0.5377084612846375,
+                "city#sponsor city": 0.5234835743904114,
+                "city#state": 0.4381038546562195,
+                "city#conference building": 0.41333600878715515,
+                "city#conference restaurant": 0.3975486755371094,
+                "city#conference hotel": 0.37150102853775024,
+                "city#main office": 0.3647758960723877
+            },
+            "country#state": {
+                "country#state": 0.446868896484375,
+                "country#city": 0.30551204085350037,
+                "country#trip city": 0.3026376962661743,
+                "country#sponsor city": 0.27436619997024536,
+                "country#time zone": 0.27398189902305603,
+                "country#sponsor state": 0.2732871472835541,
+                "country#currency": 0.27018365263938904,
+                "country#car": 0.2590010464191437,
+                "country#taxi": 0.24399249255657196,
+                "country#place": 0.23869670927524567
+            }
+        },
+        "false_positives": {},
+        "true_positives": {
+            "banquet#dinner banquet": 0.9043520092964172,
+            "author#author": 0.89400714635849,
+            "tutorial#tutorial": 0.8538914918899536
+        }
+    },
+    "cmt : conference": {
+        "false_negatives": {
+            "conference#conference volume": {
+                "conference#conference": 0.9138109683990479,
+                "conference#conference proceedings": 0.8383731842041016,
+                "conference#conference volume": 0.8073795437812805,
+                "conference#conference www": 0.7624782919883728,
+                "conference#conference announcement": 0.7518501877784729,
+                "conference#conference contribution": 0.7353030443191528,
+                "conference#conference participant": 0.7152800559997559,
+                "conference#conference part": 0.7072522640228271,
+                "conference#conference document": 0.706098735332489,
+                "conference#conference contributor": 0.7032818794250488
+            },
+            "preference#review preference": {
+                "preference#review preference": 0.6484816074371338,
+                "preference#review expertise": 0.2374577522277832,
+                "preference#accepted contribution": 0.21734988689422607,
+                "preference#topic": 0.20792512595653534,
+                "preference#regular contribution": 0.20404349267482758,
+                "preference#organizing committee": 0.19079571962356567,
+                "preference#written contribution": 0.18271587789058685,
+                "preference#rejected contribution": 0.1827114224433899,
+                "preference#regular author": 0.18131162226200104,
+                "preference#reviewed contribution": 0.17454957962036133
+            },
+            "paper abstract#abstract": {
+                "paper abstract#abstract": 0.8154298067092896,
+                "paper abstract#paper": 0.7981773018836975,
+                "paper abstract#call for paper": 0.7033778429031372,
+                "paper abstract#conference document": 0.6907737255096436,
+                "paper abstract#review": 0.6786552667617798,
+                "paper abstract#extended abstract": 0.6766011118888855,
+                "paper abstract#written contribution": 0.6764452457427979,
+                "paper abstract#regular contribution": 0.6529136300086975,
+                "paper abstract#conference contribution": 0.6345790028572083,
+                "paper abstract#information for participants": 0.6175698637962341
+            },
+            "document#conference document": {
+                "document#conference document": 0.7954223155975342,
+                "document#paper": 0.6927017569541931,
+                "document#review": 0.6742505431175232,
+                "document#written contribution": 0.6497785449028015,
+                "document#call for paper": 0.6400935053825378,
+                "document#information for participants": 0.6075575947761536,
+                "document#submitted contribution": 0.5792038440704346,
+                "document#presentation": 0.5777566432952881,
+                "document#reviewed contribution": 0.5555073618888855,
+                "document#conference www": 0.5501365065574646
+            },
+            "chairman#chair": {
+                "chairman#chair": 0.8225284218788147,
+                "chairman#committee member": 0.8136742115020752,
+                "chairman#co chair": 0.8083235621452332,
+                "chairman#conference participant": 0.7104959487915039,
+                "chairman#conference contributor": 0.7081423401832581,
+                "chairman#person": 0.6925109624862671,
+                "chairman#invited speaker": 0.6919543147087097,
+                "chairman#regular author": 0.6887982487678528,
+                "chairman#active conference participant": 0.6810006499290466,
+                "chairman#committee": 0.677939236164093
+            },
+            "subject area#topic": {
+                "subject area#topic": 0.6751564145088196,
+                "subject area#conference volume": 0.4422951936721802,
+                "subject area#organizing committee": 0.4391481578350067,
+                "subject area#invited talk": 0.43249937891960144,
+                "subject area#review expertise": 0.42066431045532227,
+                "subject area#conference part": 0.4129820764064789,
+                "subject area#program committee": 0.4121313989162445,
+                "subject area#conference proceedings": 0.4071945250034332,
+                "subject area#information for participants": 0.4027773439884186,
+                "subject area#conference": 0.38878268003463745
+            }
+        },
+        "false_positives": {
+            "program committee member#committee member": 0.9071552157402039,
+            "reviewer#reviewer": 0.8895317912101746,
+            "conference chair#chair": 0.887519121170044,
+            "conference member#conference participant": 0.8699610829353333,
+            "associated chair#co chair": 0.8544078469276428
+        },
+        "true_positives": {
+            "person#person": 0.9564296007156372,
+            "program committee#program committee": 0.9304349422454834,
+            "conference#conference": 0.9138109683990479,
+            "co author#contribution co author": 0.9012225270271301,
+            "review#review": 0.8975974917411804,
+            "author#regular author": 0.8680642247200012
+        }
+    },
+    "conference : confOf": {
+        "false_negatives": {
+            "conference participant#participant": {
+                "conference participant#participant": 0.800821840763092,
+                "conference participant#conference": 0.7291908264160156,
+                "conference participant#registration of participants event": 0.7165477871894836,
+                "conference participant#workshop": 0.6945657134056091,
+                "conference participant#person": 0.6908969283103943,
+                "conference participant#member program committee": 0.6905398964881897,
+                "conference participant#administrative event": 0.6861301064491272,
+                "conference participant#chair program committee": 0.6790122389793396,
+                "conference participant#event": 0.6698482036590576,
+                "conference participant#submission event": 0.6605497598648071
+            },
+            "organization#organization": {
+                "organization#organization": 0.8366565108299255,
+                "organization#member program committee": 0.6483786702156067,
+                "organization#company": 0.6468765139579773,
+                "organization#chair program committee": 0.633967936038971,
+                "organization#volunteer": 0.5987627506256104,
+                "organization#administrative event": 0.5711733102798462,
+                "organization#event": 0.5593097805976868,
+                "organization#person": 0.5501724481582642,
+                "organization#assistant": 0.537095308303833,
+                "organization#workshop": 0.5367920994758606
+            },
+            "conference contribution#contribution": {
+                "conference contribution#contribution": 0.8282521367073059,
+                "conference contribution#conference": 0.7327208518981934,
+                "conference contribution#workshop": 0.715156614780426,
+                "conference contribution#paper": 0.6982704401016235,
+                "conference contribution#submission event": 0.690434455871582,
+                "conference contribution#event": 0.675967276096344,
+                "conference contribution#administrative event": 0.6692327260971069,
+                "conference contribution#working event": 0.6541829705238342,
+                "conference contribution#poster": 0.6484458446502686,
+                "conference contribution#short paper": 0.6451292634010315
+            },
+            "tutorial#tutorial": {
+                "tutorial#tutorial": 0.8173008561134338,
+                "tutorial#workshop": 0.503399133682251,
+                "tutorial#working event": 0.49777600169181824,
+                "tutorial#paper": 0.4569726586341858,
+                "tutorial#short paper": 0.4439709484577179,
+                "tutorial#administrative event": 0.43653935194015503,
+                "tutorial#event": 0.422982394695282,
+                "tutorial#reviewing event": 0.41506725549697876,
+                "tutorial#camera ready event": 0.4117705225944519,
+                "tutorial#conference": 0.4079308807849884
+            },
+            "conference volume#conference": {
+                "conference volume#conference": 0.7209272980690002,
+                "conference volume#workshop": 0.6630508899688721,
+                "conference volume#administrative event": 0.5639067888259888,
+                "conference volume#member program committee": 0.5436809659004211,
+                "conference volume#event": 0.5415918827056885,
+                "conference volume#chair program committee": 0.5341999530792236,
+                "conference volume#submission event": 0.532335102558136,
+                "conference volume#registration of participants event": 0.52411949634552,
+                "conference volume#working event": 0.520983874797821,
+                "conference volume#banquet": 0.5116550922393799
+            },
+            "regular author#author": {
+                "regular author#author": 0.8372860550880432,
+                "regular author#regular": 0.7295916080474854,
+                "regular author#person": 0.7064762115478516,
+                "regular author#participant": 0.7023831605911255,
+                "regular author#administrator": 0.6819901466369629,
+                "regular author#scholar": 0.6796641945838928,
+                "regular author#member": 0.6323449611663818,
+                "regular author#member program committee": 0.6164318919181824,
+                "regular author#contribution": 0.5814825892448425,
+                "regular author#student": 0.5775676369667053
+            }
+        },
+        "false_positives": {
+            "written contribution#contribution": 0.8858793377876282,
+            "program committee#chair program committee": 0.8738715052604675
+        },
+        "true_positives": {
+            "topic#topic": 0.9999997615814209,
+            "workshop#workshop": 0.91398024559021,
+            "poster#poster": 0.8899478912353516,
+            "person#person": 0.8884984850883484,
+            "paper#paper": 0.8789998292922974
+        }
+    },
+    "cmt : confOf": {
+        "false_negatives": {
+            "conference member#member": {
+                "conference member#member program committee": 0.7701143622398376,
+                "conference member#member": 0.742186427116394,
+                "conference member#chair program committee": 0.7309803366661072,
+                "conference member#participant": 0.7227177023887634,
+                "conference member#person": 0.7010936737060547,
+                "conference member#registration of participants event": 0.6821893453598022,
+                "conference member#conference": 0.6814088225364685,
+                "conference member#administrative event": 0.6640719771385193,
+                "conference member#reviewing event": 0.6250695586204529,
+                "conference member#event": 0.6230564117431641
+            },
+            "subject area#topic": {
+                "subject area#topic": 0.6751564145088196,
+                "subject area#working event": 0.38929951190948486,
+                "subject area#submission event": 0.38891008496284485,
+                "subject area#event": 0.38413846492767334,
+                "subject area#chair program committee": 0.37993142008781433,
+                "subject area#administrative event": 0.3765332102775574,
+                "subject area#member program committee": 0.36953628063201904,
+                "subject area#workshop": 0.3693894147872925,
+                "subject area#reviewing event": 0.36721011996269226,
+                "subject area#conference": 0.35014668107032776
+            },
+            "paper full version#paper": {
+                "paper full version#paper": 0.6860857009887695,
+                "paper full version#short paper": 0.6497106552124023,
+                "paper full version#contribution": 0.48078036308288574,
+                "paper full version#reviewing event": 0.45197027921676636,
+                "paper full version#administrative event": 0.4175504744052887,
+                "paper full version#working event": 0.39505916833877563,
+                "paper full version#workshop": 0.394784152507782,
+                "paper full version#submission event": 0.39454299211502075,
+                "paper full version#author": 0.3869194984436035,
+                "paper full version#poster": 0.38408857583999634
+            },
+            "paper#contribution": {
+                "paper#paper": 0.8513169288635254,
+                "paper#short paper": 0.6592356562614441,
+                "paper#contribution": 0.6311129927635193,
+                "paper#reviewing event": 0.5856792330741882,
+                "paper#event": 0.5412260293960571,
+                "paper#poster": 0.5375046730041504,
+                "paper#administrative event": 0.5372186303138733,
+                "paper#submission event": 0.5369236469268799,
+                "paper#working event": 0.5292054414749146,
+                "paper#workshop": 0.49522465467453003
+            }
+        },
+        "false_positives": {
+            "paper#paper": 0.8513169288635254
+        },
+        "true_positives": {
+            "administrator#administrator": 0.945885419845581,
+            "conference#conference": 0.9107300043106079,
+            "program committee member#member program committee": 0.9001301527023315,
+            "author#author": 0.8981303572654724,
+            "program committee chair#chair program committee": 0.8967226147651672,
+            "person#person": 0.8830228447914124
+        }
+    },
+    "conference : ekaw": {
+        "false_negatives": {
+            "information for participants#programme brochure": {
+                "information for participants#conference paper": 0.7181758284568787,
+                "information for participants#individual presentation": 0.6935141086578369,
+                "information for participants#conference participant": 0.6889071464538574,
+                "information for participants#proceedings": 0.6549974679946899,
+                "information for participants#conference proceedings": 0.6481140851974487,
+                "information for participants#submitted paper": 0.6476491093635559,
+                "information for participants#workshop paper": 0.6461542248725891,
+                "information for participants#document": 0.638338565826416,
+                "information for participants#programme brochure": 0.6355271339416504,
+                "information for participants#invited talk": 0.630504310131073
+            },
+            "review#review": {
+                "review#review": 0.8491208553314209,
+                "review#positive review": 0.7501360774040222,
+                "review#submitted paper": 0.7007795572280884,
+                "review#neutral review": 0.6738491654396057,
+                "review#document": 0.6635765433311462,
+                "review#conference paper": 0.6549676060676575,
+                "review#demo paper": 0.6481414437294006,
+                "review#negative review": 0.6363221406936646,
+                "review#accepted paper": 0.6311598420143127,
+                "review#proceedings": 0.6289128065109253
+            },
+            "late paid applicant#late registered participant": {
+                "late paid applicant#late registered participant": 0.6384182572364807,
+                "late paid applicant#early registered participant": 0.5380817651748657,
+                "late paid applicant#student": 0.439541757106781,
+                "late paid applicant#program committee member": 0.4235876500606537,
+                "late paid applicant#possible reviewer": 0.42310017347335815,
+                "late paid applicant#agency staff member": 0.41392433643341064,
+                "late paid applicant#conference participant": 0.401998907327652,
+                "late paid applicant#person": 0.3761083781719208,
+                "late paid applicant#assigned paper": 0.3741548955440521,
+                "late paid applicant#paper author": 0.3555392026901245
+            },
+            "early paid applicant#early registered participant": {
+                "early paid applicant#early registered participant": 0.590903103351593,
+                "early paid applicant#late registered participant": 0.5598539113998413,
+                "early paid applicant#student": 0.42433926463127136,
+                "early paid applicant#program committee member": 0.41809430718421936,
+                "early paid applicant#agency staff member": 0.4122406244277954,
+                "early paid applicant#possible reviewer": 0.38536301255226135,
+                "early paid applicant#conference participant": 0.37857428193092346,
+                "early paid applicant#person": 0.3739456236362457,
+                "early paid applicant#assigned paper": 0.3574694097042084,
+                "early paid applicant#program committee chair": 0.3527464270591736
+            },
+            "organization#organisation": {
+                "organization#organising agency": 0.7927240133285522,
+                "organization#organisation": 0.7901455760002136,
+                "organization#organizing committee member": 0.672960102558136,
+                "organization#organizing committee chair": 0.6644595265388489,
+                "organization#agency staff member": 0.649432897567749,
+                "organization#conference participant": 0.607781708240509,
+                "organization#program committee member": 0.6014971137046814,
+                "organization#conference paper": 0.5976365804672241,
+                "organization#conference": 0.5679880380630493,
+                "organization#workshop chair": 0.5639473795890808
+            },
+            "track workshop chair#workshop chair": {
+                "track workshop chair#workshop chair": 0.7440700531005859,
+                "track workshop chair#organizing committee chair": 0.6638191938400269,
+                "track workshop chair#tutorial chair": 0.6592806577682495,
+                "track workshop chair#demo chair": 0.6561713218688965,
+                "track workshop chair#track": 0.6495076417922974,
+                "track workshop chair#organizing committee member": 0.6491962671279907,
+                "track workshop chair#session chair member": 0.6450770497322083,
+                "track workshop chair#conference participant": 0.6444377303123474,
+                "track workshop chair#program committee chair": 0.6431707739830017,
+                "track workshop chair#agency staff member": 0.6420944929122925
+            },
+            "conference volume#conference": {
+                "conference volume#conference proceedings": 0.7835527062416077,
+                "conference volume#conference": 0.7484762072563171,
+                "conference volume#conference session": 0.7454413175582886,
+                "conference volume#conference banquet": 0.7125959396362305,
+                "conference volume#conference participant": 0.6855769157409668,
+                "conference volume#conference paper": 0.6843050718307495,
+                "conference volume#proceedings": 0.661637544631958,
+                "conference volume#multi author volume": 0.649878978729248,
+                "conference volume#programme brochure": 0.6295095086097717,
+                "conference volume#workshop session": 0.618928074836731
+            },
+            "rejected contribution#rejected paper": {
+                "rejected contribution#rejected paper": 0.7085860967636108,
+                "rejected contribution#accepted paper": 0.6309729814529419,
+                "rejected contribution#submitted paper": 0.5803461074829102,
+                "rejected contribution#review": 0.5449049472808838,
+                "rejected contribution#possible reviewer": 0.5274785757064819,
+                "rejected contribution#invited talk": 0.5142155885696411,
+                "rejected contribution#contributed talk": 0.5034541487693787,
+                "rejected contribution#negative review": 0.5028678774833679,
+                "rejected contribution#assigned paper": 0.49167266488075256,
+                "rejected contribution#positive review": 0.479236900806427
+            },
+            "poster#poster paper": {
+                "poster#poster paper": 0.80484539270401,
+                "poster#poster session": 0.7352643013000488,
+                "poster#conference paper": 0.6919203996658325,
+                "poster#individual presentation": 0.6261373162269592,
+                "poster#demo paper": 0.6116907000541687,
+                "poster#submitted paper": 0.6074701547622681,
+                "poster#paper": 0.604729175567627,
+                "poster#demo chair": 0.5948476791381836,
+                "poster#conference participant": 0.5879106521606445,
+                "poster#workshop chair": 0.587006151676178
+            },
+            "topic#research topic": {
+                "topic#research topic": 0.7798706293106079,
+                "topic#contributed talk": 0.5698353052139282,
+                "topic#invited talk": 0.5495566725730896,
+                "topic#workshop paper": 0.5334176421165466,
+                "topic#event": 0.5254400968551636,
+                "topic#individual presentation": 0.5223645567893982,
+                "topic#conference paper": 0.5169048309326172,
+                "topic#conference session": 0.5015419721603394,
+                "topic#workshop session": 0.49868738651275635,
+                "topic#programme brochure": 0.49588409066200256
+            },
+            "conference www#web site": {
+                "conference www#conference": 0.7841833233833313,
+                "conference www#conference paper": 0.7491462230682373,
+                "conference www#conference proceedings": 0.7461446523666382,
+                "conference www#conference session": 0.7309902310371399,
+                "conference www#conference banquet": 0.7136679887771606,
+                "conference www#conference participant": 0.7125605344772339,
+                "conference www#event": 0.6885167956352234,
+                "conference www#workshop": 0.6712484955787659,
+                "conference www#proceedings": 0.6678978800773621,
+                "conference www#invited talk": 0.6643825173377991
+            },
+            "accepted contribution#accepted paper": {
+                "accepted contribution#accepted paper": 0.7107555866241455,
+                "accepted contribution#rejected paper": 0.6063621640205383,
+                "accepted contribution#invited talk": 0.5741351246833801,
+                "accepted contribution#submitted paper": 0.5714823603630066,
+                "accepted contribution#possible reviewer": 0.551076352596283,
+                "accepted contribution#conference participant": 0.5482932329177856,
+                "accepted contribution#review": 0.544740617275238,
+                "accepted contribution#assigned paper": 0.5439953804016113,
+                "accepted contribution#invited speaker": 0.5407888293266296,
+                "accepted contribution#contributed talk": 0.5090429782867432
+            },
+            "conference document#document": {
+                "conference document#document": 0.8439554572105408,
+                "conference document#conference paper": 0.8131570816040039,
+                "conference document#conference proceedings": 0.7618281841278076,
+                "conference document#conference session": 0.7164257168769836,
+                "conference document#workshop paper": 0.7156555652618408,
+                "conference document#conference participant": 0.7052484750747681,
+                "conference document#proceedings": 0.6963497996330261,
+                "conference document#conference": 0.6919641494750977,
+                "conference document#paper": 0.6907391548156738,
+                "conference document#poster paper": 0.6669883728027344
+            },
+            "reviewed contribution#evaluated paper": {
+                "reviewed contribution#review": 0.6884775161743164,
+                "reviewed contribution#submitted paper": 0.6713981032371521,
+                "reviewed contribution#invited talk": 0.6469146609306335,
+                "reviewed contribution#accepted paper": 0.6348516345024109,
+                "reviewed contribution#conference participant": 0.6327587962150574,
+                "reviewed contribution#positive review": 0.625982403755188,
+                "reviewed contribution#contributed talk": 0.6255646347999573,
+                "reviewed contribution#assigned paper": 0.6190724968910217,
+                "reviewed contribution#conference paper": 0.6043553352355957,
+                "reviewed contribution#rejected paper": 0.6003706455230713
+            },
+            "submitted contribution#submitted paper": {
+                "submitted contribution#submitted paper": 0.7678816914558411,
+                "submitted contribution#invited talk": 0.6924682855606079,
+                "submitted contribution#contributed talk": 0.6751670837402344,
+                "submitted contribution#conference paper": 0.6607168316841125,
+                "submitted contribution#poster paper": 0.6470081806182861,
+                "submitted contribution#individual presentation": 0.6412875652313232,
+                "submitted contribution#assigned paper": 0.6382657289505005,
+                "submitted contribution#conference participant": 0.6375114917755127,
+                "submitted contribution#demo paper": 0.6349638104438782,
+                "submitted contribution#invited speaker": 0.6193351745605469
+            },
+            "regular author#paper author": {
+                "regular author#person": 0.7773711085319519,
+                "regular author#program committee member": 0.7230832576751709,
+                "regular author#possible reviewer": 0.7133147716522217,
+                "regular author#paper author": 0.7076587677001953,
+                "regular author#organizing committee member": 0.7057984471321106,
+                "regular author#late registered participant": 0.7009593844413757,
+                "regular author#agency staff member": 0.6958165764808655,
+                "regular author#conference participant": 0.6838182210922241,
+                "regular author#organizing committee chair": 0.663147509098053,
+                "regular author#workshop chair": 0.6591068506240845
+            }
+        },
+        "false_positives": {
+            "invited talk#invited talk": 0.9445905685424805,
+            "conference participant#conference participant": 0.9240911602973938,
+            "committee member#organizing committee member": 0.9231886863708496,
+            "chair#organizing committee chair": 0.8646506071090698,
+            "presentation#individual presentation": 0.8634727001190186,
+            "conference#conference": 0.8603373765945435
+        },
+        "true_positives": {
+            "person#person": 0.9572984576225281,
+            "invited speaker#invited speaker": 0.9354209303855896,
+            "track#track": 0.9287335872650146,
+            "workshop#workshop": 0.902208685874939,
+            "conference proceedings#conference proceedings": 0.9014871716499329,
+            "abstract#abstract": 0.9007657766342163,
+            "tutorial#tutorial": 0.8504096269607544
+        }
+    },
+    "cmt : ekaw": {
+        "false_negatives": {
+            "author#paper author": {
+                "author#person": 0.7821008563041687,
+                "author#paper author": 0.7476062178611755,
+                "author#possible reviewer": 0.7186373472213745,
+                "author#program committee member": 0.7137261629104614,
+                "author#organizing committee member": 0.7055730223655701,
+                "author#agency staff member": 0.7035821676254272,
+                "author#workshop chair": 0.6592718958854675,
+                "author#multi author volume": 0.6541154384613037,
+                "author#presenter": 0.653078019618988,
+                "author#late registered participant": 0.6529513001441956
+            },
+            "paper full version#regular paper": {
+                "paper full version#demo paper": 0.6922264099121094,
+                "paper full version#document": 0.6864590048789978,
+                "paper full version#submitted paper": 0.6643303036689758,
+                "paper full version#accepted paper": 0.647761881351471,
+                "paper full version#conference paper": 0.636243999004364,
+                "paper full version#poster paper": 0.6242870092391968,
+                "paper full version#regular paper": 0.6211713552474976,
+                "paper full version#paper": 0.6192452311515808,
+                "paper full version#workshop paper": 0.6148120760917664,
+                "paper full version#proceedings": 0.5897371172904968
+            }
+        },
+        "false_positives": {
+            "program committee chair#program committee chair": 0.969419538974762,
+            "program committee member#program committee member": 0.9263561367988586,
+            "paper abstract#abstract": 0.8827951550483704,
+            "conference chair#workshop chair": 0.8802636861801147,
+            "associated chair#organizing committee chair": 0.8799141645431519
+        },
+        "true_positives": {
+            "person#person": 0.9443073272705078,
+            "conference#conference": 0.9278182983398438,
+            "document#document": 0.9200709462165833,
+            "review#review": 0.9109249114990234,
+            "conference member#conference participant": 0.9060350656509399,
+            "paper#paper": 0.8854669332504272
+        }
+    },
+    "confOf : ekaw": {
+        "false_negatives": {
+            "poster#poster paper": {
+                "poster#poster paper": 0.7999916076660156,
+                "poster#poster session": 0.6904999613761902,
+                "poster#conference paper": 0.653211236000061,
+                "poster#individual presentation": 0.5881523489952087,
+                "poster#paper author": 0.5793962478637695,
+                "poster#assigned paper": 0.5654969215393066,
+                "poster#workshop chair": 0.562376856803894,
+                "poster#flyer": 0.5614824295043945,
+                "poster#paper": 0.5600578784942627,
+                "poster#presenter": 0.559762179851532
+            },
+            "working event#scientific event": {
+                "working event#event": 0.8286059498786926,
+                "working event#social event": 0.7562986016273499,
+                "working event#conference": 0.7219609022140503,
+                "working event#conference banquet": 0.7083256840705872,
+                "working event#scientific event": 0.687256395816803,
+                "working event#workshop": 0.6806323528289795,
+                "working event#conference session": 0.6763190031051636,
+                "working event#workshop session": 0.6672609448432922,
+                "working event#individual presentation": 0.6641934514045715,
+                "working event#conference participant": 0.661333441734314
+            },
+            "author#paper author": {
+                "author#paper author": 0.8383771181106567,
+                "author#person": 0.7284643650054932,
+                "author#late registered participant": 0.6617549061775208,
+                "author#possible reviewer": 0.64752197265625,
+                "author#presenter": 0.6377454400062561,
+                "author#program committee member": 0.6351589560508728,
+                "author#agency staff member": 0.6224707961082458,
+                "author#multi author volume": 0.6122394800186157,
+                "author#workshop chair": 0.6108408570289612,
+                "author#student": 0.6074461340904236
+            },
+            "topic#research topic": {
+                "topic#research topic": 0.7798706293106079,
+                "topic#contributed talk": 0.5698353052139282,
+                "topic#invited talk": 0.5495566725730896,
+                "topic#workshop paper": 0.5334176421165466,
+                "topic#event": 0.5254400968551636,
+                "topic#individual presentation": 0.5223645567893982,
+                "topic#conference paper": 0.5169048309326172,
+                "topic#conference session": 0.5015419721603394,
+                "topic#workshop session": 0.49868738651275635,
+                "topic#programme brochure": 0.49588409066200256
+            },
+            "contribution#paper": {
+                "contribution#poster paper": 0.6465950012207031,
+                "contribution#conference paper": 0.6458773016929626,
+                "contribution#assigned paper": 0.6427581906318665,
+                "contribution#contributed talk": 0.640213131904602,
+                "contribution#submitted paper": 0.6225638389587402,
+                "contribution#invited talk": 0.6149945259094238,
+                "contribution#paper author": 0.6097427010536194,
+                "contribution#paper": 0.6016621589660645,
+                "contribution#individual presentation": 0.6003056168556213,
+                "contribution#workshop paper": 0.583037793636322
+            },
+            "participant#conference participant": {
+                "participant#conference participant": 0.811262309551239,
+                "participant#early registered participant": 0.7469613552093506,
+                "participant#late registered participant": 0.7418824434280396,
+                "participant#session chair member": 0.7238655686378479,
+                "participant#organizing committee member": 0.7178246974945068,
+                "participant#program committee member": 0.7147075533866882,
+                "participant#possible reviewer": 0.7131025195121765,
+                "participant#presenter": 0.7116118669509888,
+                "participant#person": 0.7060935497283936,
+                "participant#workshop chair": 0.7022208571434021
+            },
+            "organization#organisation": {
+                "organization#organisation": 0.7905504107475281,
+                "organization#organising agency": 0.7388880252838135,
+                "organization#academic institution": 0.6009179353713989,
+                "organization#organizing committee chair": 0.5660765767097473,
+                "organization#organizing committee member": 0.5586075782775879,
+                "organization#agency staff member": 0.5571082234382629,
+                "organization#university": 0.5231800675392151,
+                "organization#research institute": 0.5160015821456909,
+                "organization#program committee member": 0.49563124775886536,
+                "organization#abstract": 0.49308666586875916
+            },
+            "trip#conference trip": {
+                "trip#conference trip": 0.7618578672409058,
+                "trip#social event": 0.4385829567909241,
+                "trip#event": 0.43151402473449707,
+                "trip#scientific event": 0.3811699450016022,
+                "trip#track": 0.36879226565361023,
+                "trip#workshop session": 0.36255407333374023,
+                "trip#conference": 0.34072595834732056,
+                "trip#workshop": 0.319026917219162,
+                "trip#flyer": 0.31869757175445557,
+                "trip#regular session": 0.31672725081443787
+            },
+            "scholar#student": {
+                "scholar#paper author": 0.7174208164215088,
+                "scholar#student": 0.7040112018585205,
+                "scholar#person": 0.6612715721130371,
+                "scholar#possible reviewer": 0.6299870610237122,
+                "scholar#program committee member": 0.6261276602745056,
+                "scholar#conference participant": 0.611400842666626,
+                "scholar#presenter": 0.6019536852836609,
+                "scholar#invited speaker": 0.5861536860466003,
+                "scholar#late registered participant": 0.5770367980003357,
+                "scholar#agency staff member": 0.5733607411384583
+            }
+        },
+        "false_positives": {},
+        "true_positives": {
+            "workshop#workshop": 0.9623556137084961,
+            "conference#conference": 0.946513295173645,
+            "social event#social event": 0.9412250518798828,
+            "event#event": 0.9238541126251221,
+            "student#student": 0.8962282538414001,
+            "person#person": 0.8888943791389465,
+            "chair program committee#program committee chair": 0.888518214225769,
+            "tutorial#tutorial": 0.8786180019378662,
+            "university#university": 0.8711373209953308,
+            "member program committee#program committee member": 0.8702264428138733,
+            "banquet#conference banquet": 0.8610169291496277
+        }
+    },
+    "iasted : sigkdd": {
+        "false_negatives": {
+            "review#review": {
+                "review#review": 0.8388498425483704,
+                "review#paper": 0.7275164127349854,
+                "review#document": 0.637516975402832,
+                "review#deadline paper submission": 0.6340000033378601,
+                "review#deadline abstract submission": 0.5852088332176208,
+                "review#organizing committee": 0.5841408967971802,
+                "review#invited speaker": 0.5751863718032837,
+                "review#committee": 0.5740569829940796,
+                "review#best paper awards committee": 0.556851327419281,
+                "review#program committee": 0.5558111667633057
+            },
+            "student registration fee#registration student": {
+                "student registration fee#registration fee": 0.8379442691802979,
+                "student registration fee#registration student": 0.8363294005393982,
+                "student registration fee#fee": 0.7475726008415222,
+                "student registration fee#sponsor fee": 0.7231345176696777,
+                "student registration fee#registration signed member": 0.6182550191879272,
+                "student registration fee#registration non member": 0.5978424549102783,
+                "student registration fee#registration sigkdd member": 0.5110898017883301,
+                "student registration fee#program committee member": 0.39360401034355164,
+                "student registration fee#author of paper student": 0.3891642093658447,
+                "student registration fee#best student paper supporter": 0.3807770013809204
+            },
+            "sponsor#sponsor": {
+                "sponsor#sponsor": 0.7770501375198364,
+                "sponsor#sponsor fee": 0.7273144125938416,
+                "sponsor#exhibitors": 0.6697319746017456,
+                "sponsor#organizing committee member": 0.61021488904953,
+                "sponsor#registration signed member": 0.5947648286819458,
+                "sponsor#platinum supporter": 0.5725032091140747,
+                "sponsor#program committee member": 0.5478291511535645,
+                "sponsor#person": 0.5338489413261414,
+                "sponsor#bronze supporter": 0.5226818919181824,
+                "sponsor#organizing committee": 0.5215452909469604
+            },
+            "deadline for notification of acceptance#deadline author notification": {
+                "deadline for notification of acceptance#deadline author notification": 0.7220706939697266,
+                "deadline for notification of acceptance#deadline": 0.6571636199951172,
+                "deadline for notification of acceptance#deadline abstract submission": 0.6568366289138794,
+                "deadline for notification of acceptance#deadline paper submission": 0.5682642459869385,
+                "deadline for notification of acceptance#conference": 0.42008325457572937,
+                "deadline for notification of acceptance#conference hall": 0.40949586033821106,
+                "deadline for notification of acceptance#best applications paper award": 0.3875420391559601,
+                "deadline for notification of acceptance#best paper awards committee": 0.3842395842075348,
+                "deadline for notification of acceptance#award": 0.38024964928627014,
+                "deadline for notification of acceptance#program committee": 0.3660989999771118
+            }
+        },
+        "false_positives": {},
+        "true_positives": {
+            "conference hall#conference hall": 0.9594833850860596,
+            "main office#main office": 0.9362393617630005,
+            "place#place": 0.9345670342445374,
+            "fee#fee": 0.9286438822746277,
+            "author#author": 0.9152350425720215,
+            "person#person": 0.9145164489746094,
+            "listener#listener": 0.9094928503036499,
+            "deadline#deadline": 0.9032524824142456,
+            "registration fee#registration fee": 0.9009170532226562,
+            "non-member registration fee#registration non member": 0.8890594244003296,
+            "speaker#speaker": 0.8811156749725342
+        }
+    },
+    "cmt : iasted": {
+        "false_negatives": {
+            "review#review": {
+                "review#review": 0.8476966619491577,
+                "review#submission": 0.6627585291862488,
+                "review#reviewer": 0.6365923881530762,
+                "review#activity": 0.5981401801109314,
+                "review#receiving manuscript": 0.5864797234535217,
+                "review#form": 0.5699213743209839,
+                "review#accepting manuscript": 0.5678178668022156,
+                "review#activity before conference": 0.5637314915657043,
+                "review#final manuscript": 0.5511787533760071,
+                "review#document": 0.5507007837295532
+            }
+        },
+        "false_positives": {},
+        "true_positives": {
+            "author#author": 0.9099903702735901,
+            "person#person": 0.8742707967758179,
+            "reviewer#reviewer": 0.8636748194694519
+        }
+    },
+    "edas : iasted": {
+        "false_negatives": {
+            "document#document": {
+                "document#document": 0.8425369262695312,
+                "document#payment document": 0.7079329490661621,
+                "document#submission": 0.6067142486572266,
+                "document#form": 0.5846055150032043,
+                "document#review": 0.5808274745941162,
+                "document#receiving manuscript": 0.5773220062255859,
+                "document#author book proceedings included": 0.5557403564453125,
+                "document#publication": 0.555376410484314,
+                "document#book proceeding": 0.5548807382583618,
+                "document#presentation": 0.5513398051261902
+            },
+            "country#state": {
+                "country#state": 0.446868896484375,
+                "country#city": 0.30551204085350037,
+                "country#trip city": 0.3026376962661743,
+                "country#sponsor city": 0.27436619997024536,
+                "country#time zone": 0.27398189902305603,
+                "country#sponsor state": 0.2732871472835541,
+                "country#currency": 0.27018365263938904,
+                "country#car": 0.2590010464191437,
+                "country#taxi": 0.24399249255657196,
+                "country#place": 0.23869670927524567
+            },
+            "welcome talk#welcome address": {
+                "welcome talk#welcome address": 0.6063182353973389,
+                "welcome talk#introduction of speaker": 0.5838165283203125,
+                "welcome talk#conference activity": 0.5570239424705505,
+                "welcome talk#conference hall": 0.5406454205513,
+                "welcome talk#activity": 0.5279080867767334,
+                "welcome talk#activity after conference": 0.5274484157562256,
+                "welcome talk#speaker lecture": 0.5239401459693909,
+                "welcome talk#introduction": 0.5229558348655701,
+                "welcome talk#conference state": 0.5226513743400574,
+                "welcome talk#social program": 0.5089595913887024
+            },
+            "attended#delegate": {
+                "attended#session chair": 0.6423167586326599,
+                "attended#record of attendance": 0.6283197402954102,
+                "attended#iasted non member": 0.6023832559585571,
+                "attended#conference hall": 0.5959183573722839,
+                "attended#iasted member": 0.5932298302650452,
+                "attended#presenter university": 0.5895394682884216,
+                "attended#presenter city": 0.5714187026023865,
+                "attended#conference state": 0.5704395174980164,
+                "attended#technical committee": 0.5654696822166443,
+                "attended#presenter state": 0.5641491413116455
+            },
+            "social event#social program": {
+                "social event#social program": 0.8117271065711975,
+                "social event#conference activity": 0.6499468684196472,
+                "social event#dinner banquet": 0.6320527791976929,
+                "social event#activity": 0.6024723649024963,
+                "social event#activity after conference": 0.5967154502868652,
+                "social event#conference restaurant": 0.5735996961593628,
+                "social event#conference building": 0.5669560432434082,
+                "social event#activity before conference": 0.5616955757141113,
+                "social event#conference hall": 0.5582040548324585,
+                "social event#cocktail reception": 0.5503928065299988
+            },
+            "review#review": {
+                "review#review": 0.848328709602356,
+                "review#reviewer": 0.6607195138931274,
+                "review#submission": 0.6112576723098755,
+                "review#receiving manuscript": 0.5694817900657654,
+                "review#accepting manuscript": 0.5587109327316284,
+                "review#activity before conference": 0.5530839562416077,
+                "review#activity": 0.5528950691223145,
+                "review#form": 0.5352213978767395,
+                "review#presentation": 0.5323983430862427,
+                "review#author cd proceedings included": 0.5099894404411316
+            },
+            "reception#cocktail reception": {
+                "reception#cocktail reception": 0.6946272253990173,
+                "reception#dinner banquet": 0.5616921186447144,
+                "reception#activity": 0.5497638583183289,
+                "reception#listener": 0.5418388843536377,
+                "reception#conference activity": 0.5263648629188538,
+                "reception#receiving manuscript": 0.5214831233024597,
+                "reception#hotel presenter": 0.5106648206710815,
+                "reception#activity after conference": 0.5099173784255981,
+                "reception#presenter city": 0.5030426979064941,
+                "reception#conference hotel": 0.5014607906341553
+            },
+            "conference event#conference activity": {
+                "conference event#conference activity": 0.8294965624809265,
+                "conference event#conference state": 0.763740062713623,
+                "conference event#conference city": 0.7633863687515259,
+                "conference event#conference building": 0.7573410868644714,
+                "conference event#activity after conference": 0.7454856038093567,
+                "conference event#conference hall": 0.7368742227554321,
+                "conference event#conference hotel": 0.7334510684013367,
+                "conference event#dinner banquet": 0.7269031405448914,
+                "conference event#activity before conference": 0.7243061065673828,
+                "conference event#conference restaurant": 0.7106544375419617
+            },
+            "slide set#transparency": {
+                "slide set#presentation": 0.5712823271751404,
+                "slide set#power point presentation": 0.5466576814651489,
+                "slide set#video presentation": 0.48079127073287964,
+                "slide set#submission": 0.44558218121528625,
+                "slide set#presenter state": 0.4414254426956177,
+                "slide set#transparency": 0.4322306513786316,
+                "slide set#activity": 0.43155115842819214,
+                "slide set#place": 0.4295881986618042,
+                "slide set#conference state": 0.4283124506473541,
+                "slide set#conference activity": 0.42399418354034424
+            },
+            "paper#submission": {
+                "paper#document": 0.6756830215454102,
+                "paper#submission": 0.6531729698181152,
+                "paper#review": 0.6220837235450745,
+                "paper#activity": 0.6120824813842773,
+                "paper#publication": 0.6019321084022522,
+                "paper#receiving manuscript": 0.5927398204803467,
+                "paper#payment document": 0.5927315354347229,
+                "paper#form": 0.58999103307724,
+                "paper#conference activity": 0.5596817135810852,
+                "paper#activity before conference": 0.5586866736412048
+            },
+            "conference venue place#conference building": {
+                "conference venue place#place": 0.81998211145401,
+                "conference venue place#conference hotel": 0.8035688996315002,
+                "conference venue place#conference restaurant": 0.8029830455780029,
+                "conference venue place#conference hall": 0.801435112953186,
+                "conference venue place#conference building": 0.7486003041267395,
+                "conference venue place#conference city": 0.7421601414680481,
+                "conference venue place#conference activity": 0.7319185137748718,
+                "conference venue place#conference state": 0.7024408578872681,
+                "conference venue place#dinner banquet": 0.6886752247810364,
+                "conference venue place#presenter house": 0.6555067300796509
+            },
+            "dining place#conference restaurant": {
+                "dining place#conference restaurant": 0.7470563054084778,
+                "dining place#place": 0.7327602505683899,
+                "dining place#dinner banquet": 0.6574680209159851,
+                "dining place#session room": 0.6465307474136353,
+                "dining place#hotel room": 0.6386321783065796,
+                "dining place#conference hotel": 0.6281194686889648,
+                "dining place#conference hall": 0.6037160754203796,
+                "dining place#single hotel room": 0.5790836215019226,
+                "dining place#presenter house": 0.5671115517616272,
+                "dining place#social program": 0.5645039677619934
+            }
+        },
+        "false_positives": {
+            "person#person": 0.8945185542106628
+        },
+        "true_positives": {
+            "coffee break#coffee break": 0.9365870356559753,
+            "session chair#session chair": 0.9315140247344971,
+            "reviewer#reviewer": 0.9307436943054199,
+            "author#author": 0.9210606217384338,
+            "place#place": 0.9131009578704834,
+            "sponsorship#sponsorship": 0.9094647169113159,
+            "conference dinner#dinner banquet": 0.8931494951248169
+        }
+    },
+    "ekaw : iasted": {
+        "false_negatives": {
+            "location#place": {
+                "location#place": 0.5780723690986633,
+                "location#city": 0.49728795886039734,
+                "location#state": 0.410623162984848,
+                "location#trip city": 0.4060722887516022,
+                "location#main office": 0.4042220413684845,
+                "location#sponsor city": 0.3788833022117615,
+                "location#conference city": 0.36256837844848633,
+                "location#presenter city": 0.3546324074268341,
+                "location#taxi": 0.3469802737236023,
+                "location#conference building": 0.3182474970817566
+            },
+            "document#document": {
+                "document#document": 0.8460759520530701,
+                "document#payment document": 0.6777230501174927,
+                "document#submission": 0.6205569505691528,
+                "document#review": 0.6089671850204468,
+                "document#author book proceedings included": 0.6055738925933838,
+                "document#form": 0.5994980931282043,
+                "document#receiving manuscript": 0.5784904956817627,
+                "document#book proceeding": 0.5755633115768433,
+                "document#accepting manuscript": 0.5735520124435425,
+                "document#publication": 0.5725517272949219
+            },
+            "event#activity": {
+                "event#conference activity": 0.7501535415649414,
+                "event#activity after conference": 0.7115238308906555,
+                "event#activity": 0.6660822629928589,
+                "event#activity before conference": 0.6648780703544617,
+                "event#conference city": 0.6382533311843872,
+                "event#conference state": 0.636653482913971,
+                "event#conference building": 0.6364156603813171,
+                "event#social program": 0.627871036529541,
+                "event#conference days": 0.625135600566864,
+                "event#conference hall": 0.613304078578949
+            },
+            "paper author#author": {
+                "paper author#author": 0.7783964276313782,
+                "paper author#author information form": 0.6615039110183716,
+                "paper author#worker lecturer": 0.6318804025650024,
+                "paper author#author book proceedings included": 0.6137449741363525,
+                "paper author#publication": 0.6101537942886353,
+                "paper author#speaker": 0.6036416292190552,
+                "paper author#reviewer": 0.5973412990570068,
+                "paper author#person": 0.5950920581817627,
+                "paper author#author attended book registration fee": 0.5913707613945007,
+                "paper author#non speaker": 0.5655108094215393
+            },
+            "review#review": {
+                "review#review": 0.8162980079650879,
+                "review#reviewer": 0.6773471832275391,
+                "review#submission": 0.5974342823028564,
+                "review#activity": 0.5619884729385376,
+                "review#form": 0.5578732490539551,
+                "review#receiving manuscript": 0.5379232168197632,
+                "review#accepting manuscript": 0.5183432698249817,
+                "review#cheque": 0.5128787755966187,
+                "review#activity before conference": 0.5119631886482239,
+                "review#document": 0.5101405382156372
+            },
+            "conference banquet#dinner banquet": {
+                "conference banquet#dinner banquet": 0.8338462710380554,
+                "conference banquet#conference activity": 0.795229971408844,
+                "conference banquet#conference hall": 0.7602929472923279,
+                "conference banquet#conference state": 0.7595381140708923,
+                "conference banquet#conference hotel": 0.7573809623718262,
+                "conference banquet#conference city": 0.7498868703842163,
+                "conference banquet#conference building": 0.7492504119873047,
+                "conference banquet#conference restaurant": 0.7008419036865234,
+                "conference banquet#social program": 0.6818674802780151,
+                "conference banquet#conference hike": 0.667060136795044
+            }
+        },
+        "false_positives": {},
+        "true_positives": {
+            "tutorial#tutorial": 0.9247162342071533,
+            "session chair#session chair": 0.888161838054657,
+            "person#person": 0.8764390349388123,
+            "session#session": 0.8529917597770691
+        }
+    },
+    "conference : iasted": {
+        "false_negatives": {
+            "passive conference participant#listener": {
+                "passive conference participant#conference activity": 0.7307941317558289,
+                "passive conference participant#presenter state": 0.710381269454956,
+                "passive conference participant#conference state": 0.703416109085083,
+                "passive conference participant#delegate": 0.6831633448600769,
+                "passive conference participant#non speaker": 0.6602885127067566,
+                "passive conference participant#author": 0.6596957445144653,
+                "passive conference participant#conference building": 0.6580201983451843,
+                "passive conference participant#activity before conference": 0.6556697487831116,
+                "passive conference participant#activity": 0.6546412110328674,
+                "passive conference participant#speaker": 0.6526268720626831
+            },
+            "active conference participant#speaker": {
+                "active conference participant#conference activity": 0.7532079219818115,
+                "active conference participant#conference state": 0.6983706951141357,
+                "active conference participant#presenter state": 0.6875565648078918,
+                "active conference participant#speaker": 0.6727944612503052,
+                "active conference participant#activity before conference": 0.671352207660675,
+                "active conference participant#activity after conference": 0.6704415678977966,
+                "active conference participant#delegate": 0.6617692112922668,
+                "active conference participant#person": 0.6603160500526428,
+                "active conference participant#non speaker": 0.6558658480644226,
+                "active conference participant#author": 0.655728280544281
+            },
+            "regular author#author": {
+                "regular author#author": 0.8082545399665833,
+                "regular author#person": 0.6985039710998535,
+                "regular author#reviewer": 0.6539103984832764,
+                "regular author#author information form": 0.6397721171379089,
+                "regular author#non speaker": 0.6350454092025757,
+                "regular author#speaker": 0.622843325138092,
+                "regular author#student non speaker": 0.598510205745697,
+                "regular author#delegate": 0.5920702815055847,
+                "regular author#author cd proceedings included": 0.5668953061103821,
+                "regular author#iasted member": 0.5653659105300903
+            },
+            "conference fees#fee": {
+                "conference fees#fee": 0.6596868634223938,
+                "conference fees#member registration fee": 0.6150251030921936,
+                "conference fees#non-member registration fee": 0.6049320697784424,
+                "conference fees#student registration fee": 0.5864461660385132,
+                "conference fees#hotel fee": 0.5859152674674988,
+                "conference fees#author attended cd registration fee": 0.5859099626541138,
+                "conference fees#conference city": 0.5851992964744568,
+                "conference fees#registration fee": 0.5838882923126221,
+                "conference fees#conference hike": 0.562283992767334,
+                "conference fees#conference hotel": 0.561116099357605
+            },
+            "tutorial#tutorial": {
+                "tutorial#tutorial": 0.8454936146736145,
+                "tutorial#tutorial speaker": 0.7187663912773132,
+                "tutorial#lecture": 0.5947505831718445,
+                "tutorial#introduction": 0.5738575458526611,
+                "tutorial#speaker lecture": 0.5377143025398254,
+                "tutorial#video presentation": 0.5326393842697144,
+                "tutorial#plenary lecture": 0.5236859321594238,
+                "tutorial#presentation": 0.5200309753417969,
+                "tutorial#conference activity": 0.5177139043807983,
+                "tutorial#introduction of speaker": 0.5062666535377502
+            },
+            "conference document#document": {
+                "conference document#document": 0.7687963843345642,
+                "conference document#conference activity": 0.7255838513374329,
+                "conference document#conference state": 0.6799609661102295,
+                "conference document#activity before conference": 0.6779552698135376,
+                "conference document#payment document": 0.6526436805725098,
+                "conference document#conference building": 0.6520693302154541,
+                "conference document#presentation": 0.6496962904930115,
+                "conference document#receiving manuscript": 0.6473276615142822,
+                "conference document#accepting manuscript": 0.6408082246780396,
+                "conference document#submission": 0.6403065919876099
+            },
+            "conference part#conference activity": {
+                "conference part#conference activity": 0.7391971349716187,
+                "conference part#conference state": 0.7019397020339966,
+                "conference part#presentation": 0.680402934551239,
+                "conference part#conference building": 0.6699889898300171,
+                "conference part#conference hall": 0.6536285877227783,
+                "conference part#activity after conference": 0.6503664255142212,
+                "conference part#conference city": 0.6415041089057922,
+                "conference part#lecture": 0.6377661228179932,
+                "conference part#presenter state": 0.6370114088058472,
+                "conference part#activity before conference": 0.6263287663459778
+            },
+            "submitted contribution#submission": {
+                "submitted contribution#submission": 0.7629328370094299,
+                "submitted contribution#accepting manuscript": 0.6937590837478638,
+                "submitted contribution#review": 0.6675537824630737,
+                "submitted contribution#form": 0.6422104835510254,
+                "submitted contribution#receiving manuscript": 0.624380350112915,
+                "submitted contribution#presentation": 0.6191661357879639,
+                "submitted contribution#conference activity": 0.5851503610610962,
+                "submitted contribution#author information form": 0.5788974761962891,
+                "submitted contribution#final manuscript": 0.5755109786987305,
+                "submitted contribution#submissions deadline": 0.573797881603241
+            },
+            "camera ready contribution#final manuscript": {
+                "camera ready contribution#camera ready manuscript deadline": 0.6436823606491089,
+                "camera ready contribution#submission": 0.5559368133544922,
+                "camera ready contribution#video presentation": 0.5538589954376221,
+                "camera ready contribution#accepting manuscript": 0.5447542071342468,
+                "camera ready contribution#review": 0.5233533382415771,
+                "camera ready contribution#power point presentation": 0.49418482184410095,
+                "camera ready contribution#receiving manuscript": 0.4896392524242401,
+                "camera ready contribution#activity before conference": 0.48161348700523376,
+                "camera ready contribution#reviewer": 0.4764344096183777,
+                "camera ready contribution#conference city": 0.4685867726802826
+            },
+            "conference proceedings#publication": {
+                "conference proceedings#conference state": 0.7832722663879395,
+                "conference proceedings#conference activity": 0.7525057196617126,
+                "conference proceedings#conference hall": 0.7438161969184875,
+                "conference proceedings#conference building": 0.7208674550056458,
+                "conference proceedings#conference city": 0.7196490168571472,
+                "conference proceedings#activity after conference": 0.7065614461898804,
+                "conference proceedings#conference hotel": 0.703717827796936,
+                "conference proceedings#conference days": 0.6839871406555176,
+                "conference proceedings#activity before conference": 0.6806778311729431,
+                "conference proceedings#presentation": 0.6568601131439209
+            }
+        },
+        "false_positives": {
+            "presentation#presentation": 0.8973535895347595
+        },
+        "true_positives": {
+            "reviewer#reviewer": 0.9117153286933899,
+            "person#person": 0.8862305879592896,
+            "review#review": 0.8787935972213745
+        }
+    },
+    "confOf : sigkdd": {
+        "false_negatives": {
+            "chair program committee#program chair": {
+                "chair program committee#program committee member": 0.9228962659835815,
+                "chair program committee#organizing committee member": 0.8517205715179443,
+                "chair program committee#program chair": 0.8344725370407104,
+                "chair program committee#program committee": 0.82292240858078,
+                "chair program committee#committee": 0.8096643090248108,
+                "chair program committee#organizing committee": 0.8036222457885742,
+                "chair program committee#general chair": 0.7643689513206482,
+                "chair program committee#organization": 0.6653270125389099,
+                "chair program committee#best paper awards committee": 0.6555315852165222,
+                "chair program committee#conference hall": 0.6260735392570496
+            }
+        },
+        "false_positives": {
+            "chair program committee#organizing committee member": 0.8517205715179443
+        },
+        "true_positives": {
+            "member program committee#program committee member": 0.9370997548103333,
+            "author#author": 0.8856783509254456,
+            "conference#conference": 0.8825589418411255,
+            "person#person": 0.8821697235107422,
+            "paper#paper": 0.8738982081413269
+        }
+    }
+}
