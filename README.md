@@ -1,3 +1,14 @@
 # SORBET
 
-Documentation will come soon!
+## Requirements
+
+## Dataset Folder:
+Update dataset paths at the ```config.json```
+
+## How to run
+```python
+
+python src/train.py
+
+```
+
